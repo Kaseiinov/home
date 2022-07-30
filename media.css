@@ -1,0 +1,379 @@
+@media screen and (max-width: 1260px) {
+  .header__logo {
+    margin: 0 auto;
+  }
+
+  .header__nav {
+    display: none;
+  }
+
+  /* home */
+
+  .home__stat {
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+
+  .home__block__adres {
+    display: block;
+
+    margin-bottom: 20px;
+  }
+
+  .home__block__pokupka {
+    display: block;
+
+    margin-bottom: 40px;
+  }
+
+  .home__icon__title {
+    margin-bottom: 20px;
+  }
+
+  .home__subtitle {
+    width: 850px;
+  }
+
+  .home__adres {
+    margin-bottom: 15px;
+  }
+
+  .home__etaj {
+    margin-bottom: 25px;
+  }
+
+  .home__number1 {
+    margin-bottom: 15px;
+  }
+
+  .home__number2 {
+    margin-bottom: 15px;
+  }
+
+  .home__btn1 {
+    margin-right: 25px;
+  }
+
+  /* kontakt */
+
+  .kontakt__icon {
+    width: 40%;
+    height: 358px;
+  }
+
+  .form {
+    width: 58%;
+  }
+
+  .kontakt__block {
+    display: block;
+  }
+
+  .kontakt__number {
+    margin-bottom: 20px;
+  }
+
+  .form__text {
+    width: 100%;
+    max-width: 550px;
+
+    padding: 0 15px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .adres__text {
+    display: none;
+  }
+
+  .button__telefon {
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  /* intro */
+
+  .intro__title {
+    width: 700px;
+  }
+
+  .intro__title__img {
+    width: 100%;
+    margin: 30 auto;
+  }
+
+  .intro__title__img::after,
+  .intro__title__img::before {
+    display: none;
+  }
+
+  /* home */
+
+  .button__top {
+    width: 200px;
+  }
+
+  .home__subtitle {
+    width: 100%;
+    max-width: 700px;
+
+    line-height: 25px;
+  }
+
+  .home__icon {
+    width: 532px;
+    display: block;
+
+    margin: 0 auto;
+    margin-bottom: 60px;
+  }
+
+  .home__img {
+    border-radius: 15px;
+  }
+
+  .home__icon__button {
+    padding-bottom: 30px;
+  }
+
+  /* kotolog */
+
+  .kotolog__text {
+    width: 700px;
+  }
+
+  /* kontakt */
+
+  .kontakt__inner {
+    display: block;
+  }
+
+  .kontakt__icon {
+    width: 100%;
+    max-width: 600px;
+
+    margin: 0 auto;
+    margin-bottom: 60px;
+  }
+
+  .form {
+    width: 100%;
+    max-width: 650px;
+
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .intro__title {
+    width: 550px;
+    display: block;
+
+    font-size: 33px;
+    text-align: center;
+  }
+
+  /* home */
+
+  .home__top__block {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .home__text {
+    display: none;
+  }
+
+  .button__text {
+    margin-left: 30px;
+  }
+
+  /* kotolog */
+
+  .kotolog__title {
+    width: 550px;
+    display: block;
+
+    font-size: 35px;
+    text-align: center;
+
+    padding-top: 100px;
+  }
+
+  .kotolog__text {
+    width: 530px;
+    display: block;
+
+    font-size: 30px;
+    line-height: 35px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .intro__title {
+    width: 350px;
+
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  /* home */
+
+  .home__img,
+  .home__icon {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .home__btn1,
+  .home__btn2 {
+    font-size: 15px;
+  }
+
+  /* kotolog */
+
+  .kotolog__title {
+    width: 100%;
+    max-width: 350px;
+
+    font-size: 35px;
+    line-height: 40px;
+
+    padding-top: 50px;
+  }
+
+  .kotolog__text {
+    width: 100%;
+    max-width: 350px;
+
+    font-size: 27px;
+    line-height: 35px;
+  }
+
+  .kotolog__subtitle {
+    margin-bottom: 40px;
+  }
+
+  /* kontakt */
+
+  .form__title,
+  .form__text {
+    margin-bottom: 20px;
+
+    text-align: center;
+  }
+
+  .form__input__block {
+    width: 100%;
+    max-width: 350px;
+
+    display: block;
+
+    margin: 10px auto;
+    padding-left: 0;
+  }
+
+  .form__input:last-child {
+    margin-bottom: 20px;
+  }
+
+  /* publice */
+
+  .publice__icon {
+    display: block;
+  }
+
+  .publice__table {
+    width: 100%;
+
+    margin-left: 40px;
+    margin-bottom: 20px;
+  }
+
+  .publice__info__text {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 444px) {
+  .adres__inner {
+    display: none;
+  }
+
+  .intro__title {
+    width: 300px;
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .intro__text {
+    font-size: 18px;
+  }
+
+  .button__text {
+    margin-left: 10px;
+  }
+
+  .home__btn1,
+  .home__btn2 {
+    font-size: 14px;
+
+    padding: 5px 10px;
+  }
+
+  .home__btn1 {
+    margin-right: 5px;
+  }
+
+  .kotolog__title {
+    font-size: 25px;
+
+    line-height: 30px;
+
+    padding-top: 100px;
+  }
+
+  .kotolog__text {
+    font-size: 15px;
+  }
+
+  .kotolog__subtitle {
+    font-size: 20px;
+  }
+
+  .kotolog__btn {
+    font-size: 17px;
+
+    width: 250px;
+    padding: 7px 15px;
+  }
+
+  .publice__table {
+    margin-left: 25px;
+  }
+
+  .publice__info__text {
+    width: 300px;
+  }
+
+  .publice__block {
+    display: block;
+
+    height: 100%;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+  }
+
+  .publice__email {
+    font-size: 15px;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 15px;
+  }
+
+  .publice__img {
+    width: 300px;
+    height: 70px;
+    margin-left: 30px;
+  }
+}
